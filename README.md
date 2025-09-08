@@ -6,7 +6,7 @@ This repository contains the **execution scripts and dataset** used for evaluati
 ## Contents
 
 - **Execution scripts** to measure:
-  - ⏱ Runtime (seconds)
+  - ⏱ Execution Time (seconds)
   - 📦 Peak memory usage (MiB)
   - ⚡ Energy consumption (kWh)
   - 🌍 Carbon footprint (kg CO₂)
@@ -28,7 +28,8 @@ pip install -r dependencies.txt
 The execution scripts are located in the `scripts/` folder.  
 Each script is a Python wrapper that measures runtime, energy, memory, and CPU usage for the target program.  
 
-You need to **update the file paths inside each script** to point to your own code files.  
+You need to **update the file paths inside each script** to point to your own code files.
+**📝Important:** Provide an 'input.txt' file containing the required input for your code; the script will use it automatically.
 
 ### 🔹 Python
 ```bash
@@ -101,4 +102,5 @@ hackerrank_tasks.txt
 
 ## License
 
+Copyright (c) 2025 Tayrin Tunzina
 This project is licensed under the Apache License 2.0.
