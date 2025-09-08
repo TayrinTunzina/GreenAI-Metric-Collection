@@ -76,6 +76,7 @@ base_dir = r"path/to/your/java/projects"
 javac YourFileName.java
 ```
   **3.** Run the program using the main class name.
+  
 💡 Avoid using `javac *.java` if the folder contains multiple files with the same class names.
 
 ## Dataset
@@ -103,4 +104,5 @@ hackerrank_tasks.txt
 ## License
 
 Copyright (c) 2025 Tayrin Tunzina
+
 This project is licensed under the Apache License 2.0.
