@@ -29,6 +29,7 @@ The execution scripts are located in the `scripts/` folder.
 Each script is a Python wrapper that measures runtime, energy, memory, and CPU usage for the target program.  
 
 You need to **update the file paths inside each script** to point to your own code files.
+
 **📝Important:** Provide an 'input.txt' file containing the required input for your code; the script will use it automatically.
 
 ### 🔹 Python
