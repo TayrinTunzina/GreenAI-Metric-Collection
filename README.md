@@ -1,2 +1,104 @@
 # GreenAI-Metric-Collection
-GreenAI Metric Collection Framework: Benchmarking efficiency of AI-generated code with cross-language execution scripts.
+**Topic:** GreenAI: A Comparative Analysis of Environmental Efficiency in LLM-Generated Code
+
+This repository contains the **execution scripts and dataset** used for evaluating the environmental efficiency of AI-generated code across **Python, C++, and Java**.
+
+## Contents
+
+- **Execution scripts** to measure:
+  - ⏱ Runtime (seconds)
+  - 📦 Peak memory usage (MiB)
+  - ⚡ Energy consumption (kWh)
+  - 🌍 Carbon footprint (kg CO₂)
+- AI-generated code solutions in **Python, C++, and Java**.
+- HackerRank task links used for generating the dataset (`hackerrank_tasks.txt`).
+
+> ⚠️ Note: Statistical analysis, TOPSIS ranking, and GreenAI Efficiency Scores are **not included**.
+
+## Installation
+
+```bash
+git clone https://github.com/TayrinTunzina/GreenAI-Metric-Collection.git
+cd GreenAI-Metric-Collection
+pip install -r requirements.txt
+```
+
+## Usage
+
+The execution scripts are located in the `scripts/` folder.  
+Each script is a Python wrapper that measures runtime, energy, memory, and CPU usage for the target program.  
+
+You need to **update the file paths inside each script** to point to your own code files.  
+
+### 🔹 Python
+```bash
+scripts/benchmark_python.py
+
+# Inside benchmark_python.py, set your target Python file and base directory:
+
+python_file = r"path/to/your/code/example.py"
+base_dir = r"path/to/your/python/projects"
+```
+No compilation needed for Python.
+
+### 🔹 C++
+```bash
+scripts/benchmark_cpp.py
+
+# Inside benchmark_cpp.py, configure your compiled .exe or binary file:
+
+exe_path = r"path/to/your/program/example.exe"
+base_dir = r"path/to/your/cpp/projects"
+```
+**Note:** Compile your C++ files before running the benchmark:
+```bash
+g++ path/to/your/code/example.cpp -o path/to/your/program/example.exe
+```
+
+### 🔹 Java
+```bash
+scripts/benchmark_java.py
+
+# Inside benchmark_java.py, set your compiled Java class path and main class name:
+
+java_class_path = r"path/to/your/java/project"
+class_name = "YourMainClass"
+base_dir = r"path/to/your/java/projects"
+```
+**Note:** To compile and run without class conflicts:
+
+  **1.** Open Command Prompt in the folder containing your _.java_ files.
+  
+  **2.** Compile only the required file:
+
+```bash
+javac YourFileName.java
+```
+  **3.** Run the program using the main class name.
+💡 Avoid using _javac *.java_ if the folder contains multiple files with the same class names.
+
+## Dataset
+
+All AI-generated code solutions are available in the _datasets/_ folder, organized by language.
+
+## HackerRank Tasks
+
+The programming tasks used to generate the dataset are listed in:
+
+```bash
+hackerrank_tasks.txt
+```
+## Citation
+
+```bash
+@article{tayrin2025greenai,
+  title={GreenAI: A Comparative Analysis of Environmental Efficiency in LLM-Generated Code},
+  author={Tayrin Tunzina, Mysun Mashira, Motaharul Islam},
+  journal={},
+  year={2025}
+}
+```
+
+## License
+
+This project is licensed under the Apache License 2.0.
