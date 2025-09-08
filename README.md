@@ -1,5 +1,5 @@
 # GreenAI-Metric-Collection
-**Topic:** GreenAI: A Comparative Analysis of Environmental Efficiency in LLM-Generated Code
+**Topic:** [**GreenAI: A Comparative Analysis of Environmental Efficiency in LLM-Generated Code**](https://)
 
 This repository contains the **execution scripts and dataset** used for evaluating the environmental efficiency of AI-generated code across **Python, C++, and Java**.
 
@@ -20,7 +20,7 @@ This repository contains the **execution scripts and dataset** used for evaluati
 ```bash
 git clone https://github.com/TayrinTunzina/GreenAI-Metric-Collection.git
 cd GreenAI-Metric-Collection
-pip install -r requirements.txt
+pip install -r dependencies.txt
 ```
 
 ## Usage
@@ -67,7 +67,7 @@ base_dir = r"path/to/your/java/projects"
 ```
 **Note:** To compile and run without class conflicts:
 
-  **1.** Open Command Prompt in the folder containing your _.java_ files.
+  **1.** Open Command Prompt in the folder containing your `.java` files.
   
   **2.** Compile only the required file:
 
@@ -75,11 +75,11 @@ base_dir = r"path/to/your/java/projects"
 javac YourFileName.java
 ```
   **3.** Run the program using the main class name.
-💡 Avoid using _javac *.java_ if the folder contains multiple files with the same class names.
+💡 Avoid using `javac *.java` if the folder contains multiple files with the same class names.
 
 ## Dataset
 
-All AI-generated code solutions are available in the _datasets/_ folder, organized by language.
+All AI-generated code solutions are available in the `datasets/` folder, organized by language.
 
 ## HackerRank Tasks
 
