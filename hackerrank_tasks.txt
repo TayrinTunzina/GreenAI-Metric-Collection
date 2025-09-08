@@ -1,0 +1,56 @@
+Algorithms
+
+Easy
+
+1. https://www.hackerrank.com/challenges/two-characters/problem?
+2. https://www.hackerrank.com/challenges/repeated-string/problem?
+3. https://www.hackerrank.com/challenges/diagonal-difference/problem?
+4. https://www.hackerrank.com/challenges/big-sorting/problem?
+5. https://www.hackerrank.com/challenges/game-of-stones-1/problem?
+
+Medium
+
+1. https://www.hackerrank.com/challenges/extra-long-factorials/problem?
+2. https://www.hackerrank.com/challenges/flipping-the-matrix/problem?
+3. https://www.hackerrank.com/challenges/common-child/problem?
+4. https://www.hackerrank.com/challenges/crossword-puzzle/problem?
+5. https://www.hackerrank.com/challenges/bob-and-ben/problem?
+
+Hard
+
+1. https://www.hackerrank.com/challenges/matrix-rotation-algo/problem
+2. https://www.hackerrank.com/challenges/chief-hopper/problem
+3. https://www.hackerrank.com/challenges/string-similarity/problem
+4. https://www.hackerrank.com/challenges/k-factorization/problem
+5. https://www.hackerrank.com/challenges/taste-of-win/problem
+
+
+
+Data Structures
+
+Easy
+
+1. https://www.hackerrank.com/challenges/print-the-elements-of-a-linked-list/problem
+2. https://www.hackerrank.com/challenges/2d-array/problem
+3. https://www.hackerrank.com/challenges/print-the-elements-of-a-linked-list-in-reverse/problem
+4. https://www.hackerrank.com/challenges/maximum-element/problem
+5. https://www.hackerrank.com/challenges/tree-top-view/problem
+
+Medium
+
+1. https://www.hackerrank.com/challenges/sparse-arrays/problem
+2. https://www.hackerrank.com/challenges/balanced-brackets/problem
+3. https://www.hackerrank.com/challenges/down-to-zero-ii/problem
+4. https://www.hackerrank.com/challenges/contacts/problem
+5. https://www.hackerrank.com/challenges/is-binary-search-tree/problem
+
+Hard
+
+1. https://www.hackerrank.com/challenges/crush/problem
+2. https://www.hackerrank.com/challenges/truck-tour/problem
+3. https://www.hackerrank.com/challenges/no-prefix-set/problem
+4. https://www.hackerrank.com/challenges/and-xor-or/problem
+5. https://www.hackerrank.com/challenges/tree-coordinates/problem
+
+
+
