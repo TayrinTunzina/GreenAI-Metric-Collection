@@ -93,7 +93,7 @@ hackerrank_tasks.txt
 ```bash
 @article{tayrin2025greenai,
   title={GreenAI: A Comparative Analysis of Environmental Efficiency in LLM-Generated Code},
-  author={Tayrin Tunzina, Mysun Mashira, Motaharul Islam},
+  author={Tayrin Tunzina, Mysun Mashira, Md. Motaharul Islam},
   journal={},
   year={2025}
 }
