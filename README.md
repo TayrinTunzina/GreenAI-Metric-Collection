@@ -26,7 +26,7 @@ pip install -r dependencies.txt
 ## Usage
 
 The execution scripts are located in the `scripts/` folder.  
-Each script is a Python wrapper that measures runtime, energy, memory, and CPU usage for the target program.  
+Each script is a Python wrapper that measures runtime, memory, energy, and carbon footprint for the target program.  
 
 You need to **update the file paths inside each script** to point to your own code files.
 
