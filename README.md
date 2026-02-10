@@ -94,12 +94,7 @@ hackerrank_tasks.txt
 ## Citation
 
 ```bash
-@article{tayrin2025greenai,
-  title={GreenAI: A Comparative Analysis of Environmental Efficiency in LLM-Generated Code},
-  author={Tayrin Tunzina, Mysun Mashira, Md. Motaharul Islam},
-  journal={},
-  year={2025}
-}
+T. Tunzina et al., "GreenAI: A Comparative Analysis of Environmental Efficiency in LLM-Generated Code," in IEEE Access, vol. 14, pp. 18654-18672, 2026, doi: 10.1109/ACCESS.2026.3658813.
 ```
 
 ## License
