@@ -1,5 +1,5 @@
 # GreenAI-Metric-Collection
-**Topic:** [**GreenAI: A Comparative Analysis of Environmental Efficiency in LLM-Generated Code**](https://)
+**Topic:** [**GreenAI: A Comparative Analysis of Environmental Efficiency in LLM-Generated Code**]([https://](https://doi.org/10.1109/ACCESS.2026.3658813))
 
 This repository contains the **execution scripts and dataset** used for evaluating the environmental efficiency of AI-generated code across **Python, C++, and Java**.
 
